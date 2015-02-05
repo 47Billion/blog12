@@ -14,18 +14,6 @@ cd blog
 npm install
 ```
 
-# Run local server
-
-```
-hexo server
-```
-
-Blog - [http://localhost:4000][6034aa1d]
-[6034aa1d]: http://localhost:4000 "http://localhost:4000"
-Admin - [http://localhost:4000/admin
-][779be60d]
-[779be60d]: http://localhost:4000/admin "http://localhost:4000/admin"
-
 # New post
 
 ```
@@ -47,3 +35,34 @@ source/_posts
 ```
 {% asset_img python.png 'Image-Alt-Text' %}
 ```
+
+# Run local server
+
+```
+hexo server
+```
+
+> Blog - [http://localhost:4000][6034aa1d]
+[6034aa1d]: http://localhost:4000 "http://localhost:4000"
+Admin - [http://localhost:4000/admin
+][779be60d]
+[779be60d]: http://localhost:4000/admin "http://localhost:4000/admin"
+
+
+# Deploy to blog
+
+Generate the static files,
+```
+hexo generate
+```
+Now, deploy -
+```
+hexo deploy
+```
+
+> You might need to provide you github credentials.
+
+# Live blog
+
+> [http://47billion.com/blog][525f93a8]
+[525f93a8]: http://47billion.com/blog "http://47billion.com/blog"
