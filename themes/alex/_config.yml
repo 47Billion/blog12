@@ -1,7 +1,7 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+#  Archives: /archives
   About: /about
 rss: 
 github: https://github.com/ppoffice/hexo-theme-alex
@@ -14,7 +14,7 @@ fancybox: true
 sidebar: left
 widgets:
 - category
-#- archive
+- archive
 #- recent_posts
 - tag
 #- tagcloud
