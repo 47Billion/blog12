@@ -1,10 +1,11 @@
 #sidebar
   text-align: right
-  border-right: 1px solid #CDCDCD
+  width: 200px !important
   @media mq-normal
     column(sidebar-column)
-    padding-right: 35px
+    padding: 35px 35px 0 0
     box-sizing: border-box
+  margin: 0px !important
 
 .widget-wrap
   margin: 0 0 15px 0
@@ -12,13 +13,22 @@
   padding-bottom: 15px
 
 .widget-title
-  @extend $block-caption
+  text-decoration: none
+  text-transform: none
+  letter-spacing: 0px
+  color: #000
+  margin-bottom: 0.6em
+  margin-left: 5px
+  line-height: 1em
+  text-shadow: 0 1px #fff
+  font-weight: bold
+  font-size: 0.85em
 
 .widget
   color: color-default
   padding: 0px
   a
-    color: #626363
+    color: #000
     text-decoration: none
     &:hover
       color: #f47321

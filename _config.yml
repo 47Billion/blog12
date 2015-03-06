@@ -4,7 +4,7 @@
 title: The obstacle is the path.
 subtitle:
 description:
-author: 47billion
+author: 47Billion
 email: info@47billion.com
 language: en
 url: http://47billion.com/blog
@@ -63,7 +63,7 @@ feed:
   limit: 20
 
 ## Disqus
-disqus_shortname: 47billion
+disqus_shortname: 47Billion
 
 ## Plugins
 # plugins:

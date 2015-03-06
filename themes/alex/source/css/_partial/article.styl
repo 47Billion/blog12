@@ -1,5 +1,5 @@
 .article
-  margin: 0 13px 25px 13px
+  margin: 0px
 
 .article-inner
   @extend $block
@@ -9,44 +9,62 @@
   clearfix()
 
 .article-date
-  @extend $block-caption
-  float: left
+  text-decoration: none
+  text-transform: none
+  letter-spacing: 0px
+  color: #000
+  margin-bottom: 0em
+  margin-left: 5px
+  line-height: 1em
+  text-shadow: 0 1px #fff
+  font-weight: normal
+  float: right
+  font-size: 0.7em
 
 .article-category
   float: left
   line-height: 1em
   color: #ccc
+  font-size: 0.7em
   text-shadow: 0 1px #fff
-  margin-left: 8px
-  &:before
-    content: "\2022"
 
 .article-category-link
-  @extend $block-caption
-  margin: 0 12px 1em
+  text-decoration: none
+  text-transform: none
+  letter-spacing: 0px
+  color: #000
+  margin-bottom: 1em
+  margin-right: 5px
+  line-height: 1em
+  text-shadow: 0 1px #fff
+  font-weight: normal
 
 .article-header
   padding: article-padding article-padding 0
   margin-bottom: 20px
+  margin-top: 5px
 
 .article-title
   text-decoration: none
-  font-size: 36px !important
+  font-size: 1.25em !important
   font-weight: bold
   color: #f47321
-  line-height: line-height-title
+  line-height: 50px
   transition: color 0.2s
+  letter-spacing: -0.05em
   a&:hover
     color: #454545
 
 .article-entry
   @extend $base-style
+  margin-top: 30px
   clearfix()
   color: color-default
   padding: 0 article-padding
   p, table
-    line-height: line-height
+    line-height: 22px
     margin: entry-margin
+    font-size: 16px
   h1, h2, h3, h4, h5, h6
     font-weight: bold
   h1, h2, h3, h4, h5, h6
@@ -162,19 +180,19 @@
 
 .article-footer
   clearfix()
-  font-size: 0.85em
+  font-size: 0.8em
   line-height: line-height
-  border-top: 1px solid color-border
   padding-top: line-height
-  margin: 0 article-padding article-padding
+  margin: 0 0 50px
+  padding: 30px 0
   a
-    color: color-grey
+    color: #666
     text-decoration: none
     &:hover
       color: color-default
 
 .article-tag-list
-  list-style: none
+  list-style: none !important
   margin: 0px 5px !important
 
 .article-tag-list-item

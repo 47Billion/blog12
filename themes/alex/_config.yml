@@ -1,8 +1,8 @@
 # Header
 menu:
-  Home: /
+#  Home: /
 #  Archives: /archives
-  About: /about
+#  About: /about
 rss: 
 github: https://github.com/ppoffice/hexo-theme-alex
 

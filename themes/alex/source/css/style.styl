@@ -27,9 +27,13 @@ html, body, #container
 
 body
   background: color-background
-  font: font-size font-serif
+  font-family: 'Open Sans', sans-serif
+  font-size: 18px
   font-weight: 300
   -webkit-text-size-adjust: 100%
+  width: 1000px
+  margin: 0 auto
+  line-height: 1
 
 .outer
   clearfix()
@@ -56,7 +60,7 @@ body
   background: color-background
 
 #container #wrap > .outer
-  padding: 0px container-padding
+  padding: 0px
   opacity: 0
   transition: opacity 0.3s ease-in
   &.open
@@ -81,6 +85,10 @@ if sidebar and sidebar isnt bottom
 if sidebar is left
   #main
     float: right
+    margin: 0px !important
+    padding: 35px 0 0 35px
+    width: 760px
+    border-left: 1px solid #cdcdcd
 
 @import "_extend"
 @import "_partial/header"
