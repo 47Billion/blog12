@@ -1,21 +1,52 @@
 @media mq-mobile
   #main
-    width: 100%
+    width: 90%
+    padding:25px 15px 0 25px
   #main-nav
     float: right
   #header
     margin: 0px
+    .logo
+      width: 110px
+      height: 35px
+      background-size: 110px 35px
+      margin: 27px 0px 0 14px
     #search-form-wrap
     #nav-rss-link
       display: none
     #main-nav-toggle
       top: 0px
+      display: none
     #header-inner
       #sub-nav
-        .headsociallink
-          margin-top: 30px
+      .headsociallink
+      margin-top: 0px
+      float right
+      a
+        color: #808080
+        font-size: 14px
+      .fa-facebook-square
+        width: 18px
+        height: 18px
+      .fa-facebook-square:hover
+        color: #3b5998
+      .fa-twitter-square
+        width: 18px
+        height: 18px
+      .fa-twitter-square:hover
+        color: #4099ff
+      .fa-linkedin-square
+        width: 18px
+        height: 18px
+      .fa-linkedin-square:hover
+        color: #007bb6
+      .fa-google-plus-square
+        width: 18px
+        height: 18px
+      .fa-google-plus-square:hover
+        color: #dd4b39
   #mobile-nav
-    display: block
+    display: none
     position: relative
     width: 100%
     max-height: 1000px
@@ -28,9 +59,9 @@
       display: block
       margin: 15px 20px
       .search-form-input
-        width: 100%
+        width: 92%
   .mobile-nav-link
-    display: block
+    display: none
     color: color-header
     text-align: center
     text-decoration: none
@@ -43,3 +74,5 @@
     display: none
   #footer
     margin-top: 0px
+  #footer-info
+    text-align: center

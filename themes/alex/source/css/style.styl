@@ -28,11 +28,9 @@ html, body, #container
 body
   background: color-background
   font-family: 'Open Sans', sans-serif
-  font-size: 18px
+  font-size: 16px
   font-weight: 300
   -webkit-text-size-adjust: 100%
-  width: 1000px
-  margin: 0 auto
   line-height: 1
 
 .outer
@@ -85,9 +83,9 @@ if sidebar and sidebar isnt bottom
 if sidebar is left
   #main
     float: right
-    margin: 0px !important
-    padding: 35px 0 0 35px
-    width: 760px
+    margin: 0px
+    width: 750px
+    padding: 35px 14px 0 35px
     border-left: 1px solid #cdcdcd
 
 @import "_extend"
@@ -99,6 +97,7 @@ if sidebar is left
 @import "_partial/highlight"
 @import "_partial/tablet"
 @import "_partial/mobile"
+@import "_partial/btab"
 @import "_retina"
 
 if sidebar
