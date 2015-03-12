@@ -1,5 +1,4 @@
 title: Fun with Singleton (Python, Javascript, Java)
-date: 2015-02-04 23:49:56
 tags:
   - Design Pattern
   - Java
@@ -7,8 +6,10 @@ tags:
   - Python
   - Singleton
   - Programming
-Categories:
-  - Engineering
+categories:
+  - Technology
+  - Java
+date: 2015-02-04 23:49:56
 ---
 
 They say that Singletons, like global variables, are evil. They hide dependencies; are harder to test and even harder to extend. Singletons are lies, and it’s best to keep away from them. But, there are scenarios where you need them. For example, when you want a shared resource like printer spooler or file manager or log manager, you want a single object to handle requests from all the various parts of your application.
@@ -84,7 +85,7 @@ print r1.name
 print r2.name
 ```
 
-{% asset_img .img javascript.png 100 100 'Python' %}
+{% asset_img .img javascript.png 100 100 'JavaScript' %}
 
 Let’s now see how do we do this in Javascript. For the most simple form, just define an Object Literal, and you are done.
 
@@ -144,7 +145,7 @@ console.log(r2.getName());
 
 So it was easy. No? Great.
 
-{% asset_img .img java.png 100 100 'Python' %}
+{% asset_img .img java.png 100 100 'Java' %}
 
 
 Now, Java. I know every one of you would already know it. I would write about it anyway, just for the sake of completeness. In Java, you create a private static instance of the class, and use that instance wherever necessary.

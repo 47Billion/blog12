@@ -6,6 +6,7 @@
     "hexo-admin": "^0.2.0",
     "hexo-generator-feed": "^0.2.1",
     "hexo-helper-simple-tagcloud": "^0.1.1",
+    "hexo-migrator-wordpress": "^0.1.2",
     "hexo-renderer-ejs": "*",
     "hexo-renderer-marked": "*",
     "hexo-renderer-stylus": "*",
