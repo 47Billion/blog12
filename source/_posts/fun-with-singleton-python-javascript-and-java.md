@@ -17,7 +17,7 @@ They say that Singletons, like global variables, are evil. They hide dependencie
 In this blog, I am going to explore various ways to make Singletons in languages like Python, Java and Javascript so as to keep it simple, elegant and usable. Let’s talk about
 
 
-{% asset_img .img python.png 100 100 'Python' %}
+{% asset_img .img python.png 100 100 %}
 
 Python first. I love it, and it’s a really really wonderful language, and in here, there are n different ways to solve a problem. Singletons are no exception. The most natural way to do it is to create a decorator.
 
@@ -85,7 +85,7 @@ print r1.name
 print r2.name
 ```
 
-{% asset_img .img javascript.png 100 100 'JavaScript' %}
+{% asset_img .img javascript.png 100 100 %}
 
 Let’s now see how do we do this in Javascript. For the most simple form, just define an Object Literal, and you are done.
 
@@ -145,7 +145,7 @@ console.log(r2.getName());
 
 So it was easy. No? Great.
 
-{% asset_img .img java.png 100 100 'Java' %}
+{% asset_img .img java.png 100 100 %}
 
 
 Now, Java. I know every one of you would already know it. I would write about it anyway, just for the sake of completeness. In Java, you create a private static instance of the class, and use that instance wherever necessary.
