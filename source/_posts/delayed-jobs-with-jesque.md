@@ -1,14 +1,10 @@
 title: Delayed Jobs with Jesque
 tags:
   - Delayed Job
-  - Delayed Jobs
-  - Java
   - Jesque
   - Quartz
-  - Queue
   - Redis
   - Resque
-  - Task Queue
 id: 2002
 categories:
   - Technology

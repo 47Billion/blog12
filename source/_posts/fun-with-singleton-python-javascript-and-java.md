@@ -4,8 +4,6 @@ tags:
   - Java
   - JavaScript
   - Python
-  - Singleton
-  - Programming
 categories:
   - Technology
   - Java

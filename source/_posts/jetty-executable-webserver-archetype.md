@@ -2,13 +2,11 @@ title: Jetty Executable Webserver Archetype
 tags:
   - Deployable
   - Embedded Jetty
-  - Google Guice
   - Guice
   - Java
   - Jetty
   - REST
   - Resteasy
-  - self-executing-war
 id: 1979
 categories:
   - Technology

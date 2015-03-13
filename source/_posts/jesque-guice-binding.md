@@ -2,13 +2,9 @@ title: Jesque-Guice binding
 tags:
   - Guice
   - Java
-  - Jesque
-  - Jesque-Guice
   - Quartz
-  - Queue
   - Redis
   - Resque
-  - Task Queue
 id: 2031
 categories:
   - Technology

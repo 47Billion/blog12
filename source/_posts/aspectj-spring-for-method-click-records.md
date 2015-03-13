@@ -1,10 +1,8 @@
 title: AspectJ + Spring for method click records
 tags:
-  - AOP
   - Aspect Oriented Programming
   - AspectJ
   - Java Annotation
-  - Method Interceptor
   - Spring
 id: 1868
 categories:
