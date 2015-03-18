@@ -6,11 +6,14 @@
     float: right
   #header
     margin: 0px
+    top: -10px
+    &.open
+      height: 75px
     .logo
-      width: 110px
-      height: 35px
-      background-size: 110px 35px
-      margin: 27px 0px 0 14px
+      width: 100px
+      height: 32px
+      background-size: 100px 32px
+      margin: 27px 0px 0 0px
     #search-form-wrap
     #nav-rss-link
       display: none
@@ -20,7 +23,7 @@
     #header-inner
       #sub-nav
       .headsociallink
-        margin-top: 17px
+        margin-top: 15px
         float: right
         margin-right: 7px
         a
@@ -78,7 +81,11 @@
       color:#EFEFEF
   #sidebar
     display: none
+  .js .slicknav_menu
+    display: block
   #footer
     margin-top: 0px
   #footer-info
     text-align: center
+  .slicknav_menu
+    display:block
