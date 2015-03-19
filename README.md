@@ -61,6 +61,7 @@ hexo deploy
 ```
 
 > You might need to provide you github credentials.
+Also see - https://yeejlan.github.io/remark/host-blog-on-github-using-hexo.html#1
 
 # Live blog
 
