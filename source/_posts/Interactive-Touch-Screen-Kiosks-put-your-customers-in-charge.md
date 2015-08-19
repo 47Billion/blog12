@@ -9,33 +9,23 @@ tags:
 
 {% asset_img .img first.jpg 600 340 %}
 
+
 In these days of constantly changing information, your customers expect to be informed about the latest products, promotions and information about your services in real-time.You cannot show them old and stale information - even the data that is a day old is too old! Front-desks are getting crowded - more people need to be shown accurate data efficiently and assisted with self service options. So that they can assess your services, quality in an accurate way and get utmost satisfaction out of them; they can fulfill their needs with least assistance saving a lot of time. In the moments you analyse, implement changes and educate your service personnels, the next change is already around the corner. The only solution is to provide ways for people to get at the information quickly, easily with intuitive touch-screen interfaces. 
  
 So, what you are looking for is: Kiosks. It…
 <ul>  
-<li>Provides real-time information and lets your users explore</li>
-<li>Assist your customers to browse through your services</li>
-<li>Reduces front-end people and crowd at the reception</li>
-<li>Integrates with back-office of automating flow of visitors all the way from entry to exit</li>
-<li>Facilitates instant booking, ordering or setting appointments</li>
-<li>Gives high-tech branding</li>
-<li>Assists people to view details of specific areas, find their paths</li>
-<li>Helps in self check-ins</li>
-</ui>
+<li>Provides real-time information and lets your users explore</li><li>Assist your customers to browse through your services</li><li>Reduces front-end people and crowd at the reception</li><li>Integrates with back-office of automating flow of visitors all the way from entry to exit</li><li>Facilitates instant booking, ordering or setting appointments</li><li>Gives high-tech branding</li><li>Assists people to view details of specific areas, find their paths</li><li>Helps in self check-ins</li>
+</ul>
 To develop better trust and generate interest you need to incorporate contemporary means. If not ahead; least stay with time.Kiosks will help you to: 
 <ul>  
-<li>Update and deliver latest information</li>
-<li>Reduce check-in, check-out times</li>
-<li>Reduce costs in regular maintenance of displays, employing personnels at front desks</li>
-<li>Manage crowd and serve many; efficiently, at same time</li>
-<li>Improve your sale figures with its interactivity</li>
+<li>Update and deliver latest information</li><li>Reduce check-in, check-out times</li><li>Reduce costs in regular maintenance of displays, employing personnels at front desks</li><li>Manage crowd and serve many; efficiently, at same time</li><li>Improve your sale figures with its interactivity</li>
 </ul>
-
 With these people can self-serve themselves and know & get benefits of your services in a high definition way.Interactive kiosks will allow your customers window into your business and interact with your live data.
 
-Quick glimpse of its uses in different industries:
+<b>Quick glimpse of its uses in different industries:</b>
 
-{% asset_img .img second.jpg 600 340 %} {% asset_img .img third.jpg 600 340 %} 
+{% asset_img .img third.jpg 600 340 %} 
+
 
 <b>Aviation:</b> With Kiosks you can assist your customers to find their path, know their flight status, check-in, book a ticket, even interact with the brands on the airport, book a cab or a hotel and finally use it for third party advertisements and make revenue.
 
